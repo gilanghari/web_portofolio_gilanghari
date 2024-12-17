@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="kalkulator.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warna gradasi */
+        }
+
+        .kalkulator {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+    </style>
+    <title>Kalkulator</title>
+</head>
+<body>
+    <div class="kalkulator">
+        <input type="text" id="layar">
+        <div class="container-tombol">
+            <span class="tombol operator">C</span>
+            <span class="tombol operator"></span>
+            <span class="tombol operator">.</span>
+            <span class="tombol operator">/</span>
+            <span class="tombol">7</span>
+            <span class="tombol">8</span>
+            <span class="tombol">9</span>
+            <span class="tombol operator">*</span>
+            <span class="tombol">4</span>
+            <span class="tombol">5</span>
+            <span class="tombol">6</span>
+            <span class="tombol operator">+</span>
+            <span class="tombol">1</span>
+            <span class="tombol">2</span>
+            <span class="tombol">3</span>
+            <span class="tombol operator">-</span>
+            <span class="tombol" id="nol">0</span>
+            <span class="tombol" id="hitung">=</span>
+        </div>
+    </div>
+    <script src="kalkulator.js"></script>
+</body>
+</html>
